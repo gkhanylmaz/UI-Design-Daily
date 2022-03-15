@@ -39,6 +39,9 @@ body {
 }
 
 header {
+  background: url("./image/bg-image.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
   background: #ffff;
 }
 
@@ -86,13 +89,18 @@ header .navbar-btn button {
 }
 
 .home-section {
-  margin-top: 200px;
+  height: 720px;
+}
+
+.home-section .home-title {
+  margin-top: 100px;
 }
 
 .home-section .home-title h1 {
   color: #fff;
   font-size: 70px;
   width: 40%;
+  display: block;
 }
 
 .home-section .home-title p {
@@ -115,5 +123,47 @@ header .navbar-btn button {
   position: absolute;
   left: 15px;
   top: 12px;
+}
+
+.section-rooms {
+  background: url("./image/roombg.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section-rooms .rooms {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "a a" "a a";
+}
+
+.section-rooms .room {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+  grid-area: "a";
+}
+
+.section-rooms .room .room-title {
+  margin-left: 30px;
+}
+
+.section-rooms .room .room-title h2 {
+  color: #172e05;
+  margin-bottom: 30px;
+}
+
+.section-rooms .room .room-title .room-btn {
+  padding: 5px 25px;
+  background: #9f9c98;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 50px 50px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */
