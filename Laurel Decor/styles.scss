@@ -82,7 +82,7 @@ header {
   }
 }
 .home-section {
-  height: 720px;
+  height: 600px;
   .home-title {
     margin-top: 100px;
     h1 {
@@ -134,7 +134,7 @@ header {
         margin-bottom: 30px;
       }
       .room-btn {
-        padding: 5px 25px;
+        padding: 5px 35px;
         background: #9f9c98;
         color: #fff;
         border: none;
@@ -145,5 +145,65 @@ header {
         cursor: pointer;
       }
     }
+  }
+}
+.footer {
+  background: url("./image/footer.svg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70%;
+
+  &-title {
+    text-align: center;
+    padding-top: 100px;
+    width: 50%;
+    display: block;
+    margin-left: 400px;
+
+    p {
+      color: #fff;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+}
+
+.footer-mail {
+  background-color: #041616;
+  height: 15%;
+
+  .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 35px;
+    padding-right: 60px;
+  }
+  .form {
+    input {
+      height: 50px;
+      width: 290px;
+      padding-left: 10px;
+      border: none;
+    }
+    input::placeholder {
+      font-size: 20px;
+      color: #877c7c;
+    }
+  }
+  button {
+    height: 50px;
+    border: none;
+    width: 190px;
+    background-color: #f6b60f;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
   }
 }

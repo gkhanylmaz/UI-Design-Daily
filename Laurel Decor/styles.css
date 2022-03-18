@@ -89,7 +89,7 @@ header .navbar-btn button {
 }
 
 .home-section {
-  height: 720px;
+  height: 600px;
 }
 
 .home-section .home-title {
@@ -156,7 +156,7 @@ header .navbar-btn button {
 }
 
 .section-rooms .room .room-title .room-btn {
-  padding: 5px 25px;
+  padding: 5px 35px;
   background: #9f9c98;
   color: #fff;
   border: none;
@@ -165,5 +165,88 @@ header .navbar-btn button {
   font-weight: 700;
   margin: 50px 50px;
   cursor: pointer;
+}
+
+.footer {
+  background: url("./image/footer.svg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70%;
+}
+
+.footer-title {
+  text-align: center;
+  padding-top: 100px;
+  width: 50%;
+  display: block;
+  margin-left: 400px;
+}
+
+.footer-title p {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.footer-mail {
+  background-color: #041616;
+  height: 15%;
+}
+
+.footer-mail .mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+}
+
+.footer-mail h1 {
+  color: #fff;
+  font-size: 35px;
+  padding-right: 60px;
+}
+
+.footer-mail .form input {
+  height: 50px;
+  width: 290px;
+  padding-left: 10px;
+  border: none;
+}
+
+.footer-mail .form input::-webkit-input-placeholder {
+  font-size: 20px;
+  color: #877c7c;
+}
+
+.footer-mail .form input:-ms-input-placeholder {
+  font-size: 20px;
+  color: #877c7c;
+}
+
+.footer-mail .form input::-ms-input-placeholder {
+  font-size: 20px;
+  color: #877c7c;
+}
+
+.footer-mail .form input::placeholder {
+  font-size: 20px;
+  color: #877c7c;
+}
+
+.footer-mail button {
+  height: 50px;
+  border: none;
+  width: 190px;
+  background-color: #f6b60f;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
