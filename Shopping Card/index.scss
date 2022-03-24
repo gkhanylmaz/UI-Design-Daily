@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+$dark-blue: #191847;
+$light-blue: #4788e9;
+$bg-color: #e5e5e5;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: $bg-color;
+}
+.container {
+  width: 1224px;
+  height: 930px;
+  margin: auto;
+}
+.card {
+  background-color: #fff;
+  width: 887px;
+  height: 661px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 2rem;
+
+  .cards {
+    padding: 5rem 5rem;
+  }
+
+  &-section {
+    display: flex;
+
+    .card-right {
+      margin-left: 1rem;
+
+      .free {
+        background-color: $dark-blue;
+        display: inline;
+        color: #fff;
+        border-radius: 20px;
+        padding: 0.2rem 0.3rem;
+        font-size: 14px;
+      }
+      h2 {
+        color: $dark-blue;
+        margin-top: 1rem;
+      }
+      h5 {
+        text-decoration: line-through;
+        color: $dark-blue;
+        margin-top: 2rem;
+      }
+      h1 {
+        color: $dark-blue;
+      }
+      .price-title {
+        color: $dark-blue;
+        font-size: 14px;
+      }
+    }
+  }
+  .card-button {
+    margin-top: 2rem;
+
+    button {
+      width: 100%;
+      border: none;
+      background-color: $light-blue;
+      padding: 1rem 1rem;
+      box-shadow: 0px 7px 0px #1c57ee;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .stock {
+      font-size: 14px;
+      font-weight: 500;
+      margin-top: 2rem;
+      display: flex;
+      .circle {
+        background-color: #00d98b;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        margin-top: 5px;
+        margin-right: 4px;
+      }
+    }
+  }
+  .footer-buttons {
+    display: flex;
+
+    .btn {
+      border: 2px solid #c9c9da;
+      border-radius: 8px;
+      color: $dark-blue;
+      width: 213px;
+      height: 64px;
+      margin: 1rem 0.5rem;
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+}

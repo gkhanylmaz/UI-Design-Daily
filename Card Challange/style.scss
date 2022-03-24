@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+$bg-color: #f0efff;
+$light-orange: #fb896b;
+$light-red: #fb6b6b;
+$orange: #f1a864;
+$yellow: #fbd36b;
+$dark-gray: #485258;
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 16px;
+  color: #fff;
+}
+
+body {
+  background: rgba(255, 209, 194, 0.5);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 4rem;
+    height: 100%;
+    line-height: 3rem;
+  }
+
+  .search {
+    background: $light-orange;
+  }
+
+  .cro {
+    background: $light-red;
+  }
+
+  .social {
+    background: $orange;
+  }
+
+  .other {
+    background: $yellow;
+
+    h3 {
+      color: $dark-gray;
+    }
+    a {
+      color: $dark-gray;
+    }
+  }
+
+  .intro {
+    background: $dark-gray;
+    grid-column: 2/4;
+
+    .intro-1 {
+      width: 50%;
+    }
+
+    button {
+      padding: 1rem 1rem;
+      cursor: pointer;
+    }
+  }
+}
